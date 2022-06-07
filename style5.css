@@ -1,0 +1,121 @@
+
+* {
+
+  margin: 0; 
+  
+    padding: 0;
+}
+body
+{
+    
+    background: url(media/mb1.jpg);
+  background-size: 100%;
+  background-repeat:repeat-y ;
+}
+.prod img
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px #8C0000;
+}
+.prod img:hover
+{
+    opacity: 0.7;
+    transform: scale(1.05);
+    transition: 0.7s ease-in-out;
+    }
+  
+.navbar {
+    display: flex;
+  
+
+    position: sticky; 
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+  
+
+    cursor: pointer;
+}
+  
+.nav-list {
+    width: 100%;
+    display: flex;
+}
+  
+.nav-list li {
+    list-style: none;
+    padding: 10px 80px;
+    font-family: "Century Gothic";
+    font-size: 3em;
+}
+  
+.nav-list li a {
+    text-decoration: none;
+    font-style: italic;
+    color: #bb0b0b;
+}
+  
+.nav-list li a:hover {
+    color: white;
+}
+  
+  
+.background {
+   background: url(./media/back.jpg);
+}
+#menu
+{
+background: url(./media/mb1.jpg);
+background-size: 100%;
+  background-repeat:repeat-y ;
+
+}
+#choix
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20%;
+}
+#choix2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20%;
+}
+
+.imagechoix h4
+{
+    font-family: "Century Gothic";
+    text-align: center;
+    font-size: 3em;
+    color: #cf0a1d;
+    text-shadow: 0 1px 0 #a60817, 0 2px 0 #a60817,    0 20px 30px rgba(120, 120, 120, 0.7);
+    margin: 15px;
+}
+.imagechoix img 
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px #8C0000;
+}
+.imagechoix img:hover
+{
+    opacity: 0.7;
+    transform: scale(1.05);
+    transition: 0.7s ease-in-out;
+    }
+
+footer
+{
+
+    background: url(./media/back.jpg);
+    font-family: "Century Gothic";
+    color: #cf0a1d;
+  bottom: 0; left: 0; right: 0;
+}
+a:link 
+{ 
+ text-decoration:none; 
+ color: #cf0a1d;
+} 
