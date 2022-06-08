@@ -78,7 +78,14 @@ h2
     color: #cf0a1d;
     text-shadow: 0 1px 0 #a60817, 0 2px 0 #a60817,    0 20px 30px rgba(120, 120, 120, 0.7);
 }
-
+h3
+{
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 2em;
+    color: #cf0a1d;
+    text-shadow: 0 1px 0 #a60817, 0 2px 0 #a60817,    0 20px 30px rgba(120, 120, 120, 0.7);
+}
 footer
 {
 
